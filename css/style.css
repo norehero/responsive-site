@@ -1,0 +1,88 @@
+.cover {
+  background-image: url("../bulldog.jpeg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.box {
+  width:31.333%;
+  height:100%;
+  margin:1%;
+  float: left;
+  }
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .contents {
+    flex-direction: column;
+  }
+  
+  .box {
+  width:98%;
+  }
+  .cover {
+  height:250px;
+  }
+}
+.main {
+  background-color: #FFFFF;
+  height:100px;
+  width:100%;
+}
+.footer {
+  background-color: #EEEEEE;
+  height:150px;
+  width:100%;
+}  
+.titlebox {
+  font-weight:bold;
+  text-align: center;
+  background-color:#dddddd;
+  margin-bottom: 0px;
+  padding: 20px;
+  color:#9a9a9a;
+  font-size: 20pt;
+}
+.textbox {
+  font-weight:bold;
+  text-align: center;
+  color: #ffffff;
+  background-color: #9a9a9a;
+  margin-top: 0px;
+  padding: 80px;
+  font-size: 20pt;
+}
+.sample {
+    margin: 0 auto;
+    width:200px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:10px 0 10px;
+    color:#FFFFFF;
+    background-color:#9a9a9a;
+    border-radius:5px;
+}
+
+.subtitle1 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10;
+  color:#9a9a9a;
+  font-size: 20pt;
+}
+.subtitle2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  color:#9a9a9a;
+}
